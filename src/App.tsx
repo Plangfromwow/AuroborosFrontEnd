@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 import { RaceInfo, Race } from './RaceInfo';
+import Classes from './Classes'
 
 function App() {
   
@@ -42,6 +43,7 @@ useEffect(()=>{
       )
     })}
       </select>
+      <Classes />
     </div>
   )
 }
